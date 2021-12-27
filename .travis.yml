@@ -1,4 +1,9 @@
 language: node_js
+jobs:
+  include:
+    - os: linux-ppc64le
+      dist: bionic
+     
 node_js:
   - 8
   - 10
